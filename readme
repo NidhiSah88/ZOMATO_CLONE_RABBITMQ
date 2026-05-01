@@ -1,0 +1,87 @@
+npm init -y 
+npm i -g typescript
+npx tsc --init
+
+npm i express googleapis jsonwebtoken mongoose axios co
+rs 
+
+npm i -D @types/express @types/jsonwebtoken @types/mongoose @types/axios @types/cors concurrent
+
+ "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrent \"tsc --watch\" \"node --watch dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+    role: {type: String, enum: ['user', 'admin'], default: 'user'}
+
+mongodb: 
+nidhisah88_db_user
+kuyL9FASJMWxQxhh
+ 
+Google api for oAuth : npm i googleapis
+
+
+search google cloud console 
+https://cloud.google.com/free?utm_source=pmax&utm_medium=display&utm_campaign=Cloud-SS-DR-GCP-1713664-GCP-DR-APAC-IN-en-PMAX-Display-PMAX-Prospecting-GenericCloud&utm_content=c--x--9150392-19635889192&utm_term&gclsrc=aw.ds&gad_source=1&gad_campaignid=19635891583&gclid=CjwKCAjw-8vPBhBbEiwAoA39WgeLXK9Tpf2d00mmbAu1pxnK07TtqL3gvVJH8GjfBx899CmQXM-k5hoCLe0QAvD_BwE
+ click on "console" button -- top right 
+ https://console.cloud.google.com/welcome?_gl=1*1jeqq9j*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw-8vPBhBbEiwAoA39WgeLXK9Tpf2d00mmbAu1pxnK07TtqL3gvVJH8GjfBx899CmQXM-k5hoCLe0QAvD_BwE&gclsrc=aw.ds&project=zomatoclone-495005
+
+
+ here now create new project --- top left  button
+ Click on "APIS AND SERVICES "
+ THEN click on "OAUTH consent screen" 
+
+then click on "get started" 
+fill deatils like appn name : zomatoclcone, add email id ..finish the click " create" button 
+
+after that click on "create OAUTH client "  in OAuth overview
+
+select " web application " in dropdown 
+
+name : web client 
+
+Authorised js client : 
+uris:  http://localhost:5173
+click "create" 
+
+then
+
+OAuth client created
+
+Client ID : 
+1007813798364-o9a3o4qkvcbgqnqg5j8v3f4b5mfmblv7.apps.googleusercontent.com
+
+Client secret : 
+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
+
+
+then it gets redirected to " https://console.cloud.google.com/auth/clients?project=zomatoclone-495005"
+
+
+
+https://console.cloud.google.com/auth/overview/create?project=zomatoclone-495005
+https://www.npmjs.com/package/googleapis
+
+
+FRONTEND :
+npm create vite@latest . 
+
+npm install tailwindcss @tailwindcss/vite 
+
+npm i react-router-dom axios react-hot-toast 
+react oauth google
+
+: npm i @react-oauth/google
+
+https://www.npmjs.com/package/@react-oauth/google?activeTab=readme
+
+
+npm in react-icons
+
+
+
+
+
+
